@@ -1,0 +1,17 @@
+{
+  "name": "Garage Booty Builder",
+  "short_name": "Garage",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#1B1220",
+  "theme_color": "#1B1220",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

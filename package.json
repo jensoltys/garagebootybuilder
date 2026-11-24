@@ -1,0 +1,23 @@
+{
+  "name": "garage-booty-builder",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A game-style home strength tracker with Georgia the peach. One static page that saves in the browser.",
+  "license": "MIT",
+  "author": "Jen Soltys (https://jenbuiltit.com)",
+  "homepage": "https://jensoltys.github.io/garagebootybuilder/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jensoltys/garagebootybuilder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jensoltys/garagebootybuilder/issues"
+  },
+  "engines": {
+    "node": ">=18.1"
+  },
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "test": "node --test tests/gbb-today.test.mjs tests/program.test.mjs tests/safety.test.mjs"
+  }
+}
