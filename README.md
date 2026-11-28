@@ -88,6 +88,10 @@ Run `npm test` after editing. It checks your program for duplicate ids, empty da
 | `assets/georgia.js` | Georgia the peach, drawn in SVG for each of her five stages. |
 | `tests/` | Node tests for the program rules, `program.js`, and bad input from storage or a restore file. |
 
+## Built with
+
+Garage Booty Builder is one static page with plain JavaScript files, hosted on GitHub Pages. There's no server, no account and no build step, and everything saves in your browser.
+
 ## Tests
 
 ```bash
